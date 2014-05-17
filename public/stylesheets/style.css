@@ -3,10 +3,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color : black;
   color : white;
+  font-family : 'Tangerine', cursive;
+
 }
 
 a {
   color: #00B7FF;
+}
+#title {
+	position : absolute;
+	left : 0;
+	top : 20px;
+	width : 100%;
+	text-align:  center;
+}
+#title h1 {
+	font-size : 50px;
 }
 #txt {
 	position: absolute;
