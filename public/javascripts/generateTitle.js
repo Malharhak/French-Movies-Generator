@@ -220,4 +220,18 @@ var addVirgule = function () {
 		return " ";
 	}
 }
-generateTitle();
+
+
+
+function setPhrase () {
+	var phrase = generateTitle();
+	console.log(phrase);
+	$('#txt').text(phrase);
+
+}
+$(window).on('load', function () {
+	$("#reload").on('click', function (event) {
+		setPhrase();
+	});
+	setPhrase();
+});
