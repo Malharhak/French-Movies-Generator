@@ -45,7 +45,6 @@ var sujets = {
 			"la maison",
 			"la voiture",
 			"la famille",
-			"la petite",
 			"la cabane",
 			"la piscine",
 			"une corniche",
