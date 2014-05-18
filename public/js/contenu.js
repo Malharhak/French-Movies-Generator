@@ -8,11 +8,20 @@ var genders = [
 ];
 
 var adverbes = [
-	"apres",
-	"avant",
+	"pour",
 	"avec",
 	"sans",
-	"pour"
+	"pour",
+	"depuis",
+	"comme",
+	"avant",
+	"après",
+	"maintenant",
+	"soudain",
+	"souvent",
+	"tantôt",
+	"toujours",
+	"jamais"
 
 ];
 var sujets = {
@@ -24,13 +33,15 @@ var sujets = {
 			"l'oiseau",
 			"le flot",
 			"l'amour",
-			"dimanche"
+			"dimanche",
+			"le pain"
 		],
 		fem : [
 			"la pluie",
 			"la maison",
 			"la voiture",
-			"la famille"
+			"la famille",
+			"la petite"
 		]
 	},
 	plur : {
@@ -40,8 +51,14 @@ var sujets = {
 		],
 		fem : [
 			"les couleurs",
-			"les feuilles de l'automne"
-			
+			"les feuilles de l'automne",
+			"les oiseaux",
+			"les dessins",
+			"les pommes",
+			"tes histoires",
+			"nos chemins",
+			"ces gens"
+
 		]
 	}
 };
@@ -87,7 +104,7 @@ var verbes_simple = {
 	trois : [
 		"parle",
 		"revient",
-		
+
 		"s'ouvre",
 		"m'aime",
 		"coule",
@@ -96,11 +113,11 @@ var verbes_simple = {
 	deux : [
 		"parles",
 		"reviens",
-		
+
 		"vas bien",
 		"prends le nord",
-		
-		
+
+
 		"m'aimes",
 		"meurs",
 		"joues",
@@ -163,7 +180,7 @@ var last_negations = [
 	"pas",
 	"plus jamais",
 	"plus",
-	"qu'a l'arrivee de l'automne"
+	"qu'à l'arrivee de l'automne"
 ];
 
 var fins = [
@@ -176,14 +193,14 @@ var fins = [
 var oneshots = [
 	"le soir",
 	"les feuilles tombent",
-	"tu n'es plus la",
+	"tu n'es plus là",
 	"les arbres sont fleuris",
 	"la cabane de ta fille"
 ];
 
 var dual1 = [
 	"Apres la pluie, "
-]
+];
 
 
 
@@ -191,10 +208,18 @@ var dual1 = [
 var liaisons = [
 	"pour",
 	"avec",
-	"de",
 	"sans",
 	"pour",
-	"depuis"
+	"depuis",
+	"comme",
+	"avant",
+	"après",
+	"maintenant",
+	"soudain",
+	"souvent",
+	"tantôt",
+	"toujours",
+	"jamais"
 ];
 var sujets_compl = [
 	"toi",
@@ -208,10 +233,19 @@ var sujets_compl = [
 	"ta vie",
 	"nos vies",
 	"les couleurs",
-	"les feuilles de l'automne"
+	"les feuilles de l'automne",
+	"les enfants",
+	"leurs dessins",
+	"une maison",
+	"une place",
+	"un bois",
+	"les champs",
+	"le temps",
+	"le ciel",
+	"les nuages"
 ];
 
-	
+
 // TODO : negations ( "personne", )
 
 function generateWordTable (list) {
@@ -241,4 +275,4 @@ function generateWordTable (list) {
 		nCompl.push(new Mot(mot));
 	}
 	return nCompl;
-} 
+}
