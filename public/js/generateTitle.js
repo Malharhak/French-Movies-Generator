@@ -1,5 +1,5 @@
 var generateTitle = function () {
-	
+
 	var phraseType = rElem(phraseTypes);
 	var p = phraseFunctions[phraseType]();
 	return p.charAt(0).toUpperCase() + p.substr(1) + ".";
@@ -7,8 +7,23 @@ var generateTitle = function () {
 
 
 
+var bgs = 2;
+var fonts = 2;
 
-
+var lastBg = 0;
+var lastFont = 0;
+var chooseBG = function () {
+	var bg = Math.floor (Math.random() * bgs);
+	$('#background').removeClass('bg' + lastBg);
+	$('#background').addClass('bg' + bg);
+	lastBg = bg;
+};
+var chooseFont = function () {
+	var font = Math.floor (Math.random() * fonts);
+	$('#txt').removeClass('font' + lastFont);
+	$('#txt').addClass('font' + font);
+	lastFont = font;
+};
 
 
 var rElem = function (tbl) {
@@ -27,7 +42,8 @@ var addVirgule = function () {
 function setPhrase () {
 	var phrase = generateTitle();
 	$('#txt').text(phrase);
-
+	chooseBG();
+	chooseFont();
 }
 $(window).on('load', function () {
 	compl_etat = generateWordTable(pre_compl_etat);

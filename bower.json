@@ -1,0 +1,10 @@
+{
+	"name": "French Movies Generator",
+	"version": "1.0.1",
+	"dependencies": {
+		"jquery": "1.9",
+		"bootstrap": null,
+		"bower-bourbon": null,
+		"font-awesome": null
+	}
+}

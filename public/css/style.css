@@ -1,38 +1,65 @@
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color : black;
-  color : white;
-  font-family : 'Tangerine', cursive;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
-}
+#background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
 
 a {
-  color: #00B7FF;
-}
-#title {
-	position : absolute;
-	left : 0;
-	top : 20px;
-	width : 100%;
-	text-align:  center;
-}
-#title h1 {
-	font-size : 50px;
-}
-#txt {
-	position: absolute;
-	left : 0;
-	width : 100%;
-	top : 50%;
-	text-align : center;
-	font-size : 40px;
+  color: #00B7FF; }
 
-}
+.font0 {
+  font-family: 'Tangerine', cursive; }
+
+.font1 {
+  font-family: 'Cinzel', serif; }
+
+.bg0 {
+  background-image: url("../img/bgs/01.jpg"); }
+
+.bg1 {
+  background-image: url("../img/bgs/bp14.jpg"); }
+
+#title {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 100%;
+  text-align: center; }
+
+#title h1 {
+  font-size: 50px; }
+
+#txt {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  font-size: 40px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
 #reloadDiv {
-	position: absolute;
-	left : 0;
-	width : 100%;
-	bottom : 25%;
-	text-align : center;
-}
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 25%;
+  text-align: center; }
