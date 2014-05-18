@@ -1,7 +1,8 @@
 var phraseTypes = [
 	"classic",
 	"withLiaison",
-	"dual"
+	"dual",
+	"veryLong"
 ];
 
 var phraseFunctions = {};
@@ -27,6 +28,15 @@ phraseFunctions.dual = function () {
 	var p1 = generateProp();
 	var p2 = generateProp();
 	var phrase = p1 + ", " + p2;
+	return phrase;
+};
+phraseFunctions.veryLong = function () {
+	var nbProps = Math.floor(Math.random() * 4) + 2;
+	var phrase = "";
+	for (var i = 0; i < nbProps; i++) {
+		phrase += generateProp();
+		phrase += ", ";
+	}
 	return phrase;
 };
 

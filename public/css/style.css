@@ -77,8 +77,9 @@ a {
 #txt {
   position: absolute;
   left: 0;
-  width: 100%;
-  top: 100px;
+  width: 80%;
+  left: 10%;
+  top: 60px;
   text-align: center;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -88,5 +89,5 @@ a {
   position: absolute;
   left: 0;
   width: 100%;
-  top: 200px;
+  top: 250px;
   text-align: center; }
