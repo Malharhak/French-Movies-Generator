@@ -170,8 +170,12 @@ var pre_compl_etat =  [
 	["jeune", "jeunes"],
 	["beau", "belle", "beaux", "belles"],
 	["grand", "grande", "grands", "grandes"],
-	["la"],
-	["ici"]
+	["là"],
+	["ici"],
+	["là-bas"],
+	["petit", "petite", "petits", "petites"],
+	["loin", "loins"],
+	["mort", "morte", "morts", "mortes"]
 ];
 var compl_etat = [];
 var last_negations = [
@@ -193,7 +197,13 @@ var oneshots = [
 	"les feuilles tombent",
 	"tu n'es plus là",
 	"les arbres sont fleuris",
-	"la cabane de ta fille"
+	"la cabane de ta fille",
+	"j'ai fait des crêpes",
+	"l'échelle est tombée",
+	"l'oiseau s'envole",
+	"la fleur fanne",
+	"il te regarde",
+	"le jour se lève"
 ];
 
 var dual1 = [
