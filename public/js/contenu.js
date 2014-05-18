@@ -37,8 +37,7 @@ var sujets = {
 			"le pain",
 			"le pré",
 			"un chien",
-			"un coeur",
-			"pedobear"
+			"un coeur"
 		],
 		fem : [
 			"la pluie",
@@ -62,7 +61,7 @@ var sujets = {
 			"les dessins",
 			"les oiseaux",
 			"les poissons",
-			"des gauffres"
+			"les gauffres"
 		],
 		fem : [
 			"les couleurs",
