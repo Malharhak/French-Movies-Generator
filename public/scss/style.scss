@@ -19,7 +19,7 @@ body {
 	width : 100%;
 	text-align : right;
 	bottom : 0;
-	height : 20px;
+	height : 25px;
 	left : 0;
 }
 #background {
@@ -34,6 +34,14 @@ body {
 	background-size : 100% auto;
 	@include transition (all 0.5s ease-in-out);
 }
+.twitter-share-button[style]{
+	vertical-align: text-bottom !important;
+}
+#forkbtn {
+	margin-top : 5px;
+	vertical-align : text-bottom !important;
+}
+
 a {
   color: #00B7FF;
 }
