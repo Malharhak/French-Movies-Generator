@@ -10,6 +10,8 @@ var generateTitle = function () {
 var bgs = 5;
 var fonts = 4;
 
+var timer = 500;
+
 var lastBg = 0;
 var lastFont = 0;
 var chooseBG = function () {
@@ -26,7 +28,7 @@ var chooseFont = function () {
 		$('#txt').addClass('font' + font);
 		lastFont = font;
 		$('#txt').removeClass('invisible');
-	}, 250);
+	}, timer);
 };
 
 
@@ -47,7 +49,7 @@ function setPhrase () {
 	var phrase = generateTitle();
 	setTimeout (function () {
 		$('#txt').text(phrase);
-	}, 250);
+	}, timer);
 	chooseBG();
 	chooseFont();
 }

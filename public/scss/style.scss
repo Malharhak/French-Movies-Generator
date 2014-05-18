@@ -86,7 +86,7 @@ a {
 	width : 100%;
 	top : 100px;
 	text-align : center;
-	@include transition (opacity 0.25s ease-in-out);
+	@include transition (opacity 0.5s ease-in-out);
 }
 #reloadDiv {
 	position: absolute;
