@@ -35,7 +35,9 @@ phraseFunctions.veryLong = function () {
 	var phrase = "";
 	for (var i = 0; i < nbProps; i++) {
 		phrase += generateProp();
-		phrase += ", ";
+		if (i < nbProps - 1) {
+			phrase += ", ";
+		}
 	}
 	return phrase;
 };
