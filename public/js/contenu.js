@@ -262,7 +262,10 @@ var oneshot_adverbe = [
 	"et je dis",
 	"si seulement il mentait",
 	"le bateau prend le large",
-	"à condition d'analyser que l'absolu ne doit pas être annihilé"
+	"à condition d'analyser que l'absolu ne doit pas être annihilé",
+	"avant de mourir",
+	"après mourir",
+	"toute ma jeunesse"
 ];
 
 var dual1 = [
