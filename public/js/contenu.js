@@ -34,14 +34,24 @@ var sujets = {
 			"le flot",
 			"l'amour",
 			"dimanche",
-			"le pain"
+			"le pain",
+			"le pré",
+			"un chien",
+			"un coeur"
 		],
 		fem : [
 			"la pluie",
 			"la maison",
 			"la voiture",
 			"la famille",
-			"la petite"
+			"la petite",
+			"la cabane",
+			"la piscine",
+			"la marre",
+			"une corniche",
+			"une table",
+			"une porte",
+			"la fenêtre"
 		]
 	},
 	plur : {
@@ -197,13 +207,20 @@ var oneshots = [
 	"les feuilles tombent",
 	"tu n'es plus là",
 	"les arbres sont fleuris",
-	"la cabane de ta fille",
 	"j'ai fait des crêpes",
 	"l'échelle est tombée",
 	"l'oiseau s'envole",
 	"la fleur fanne",
 	"il te regarde",
-	"le jour se lève"
+	"le jour se lève",
+	"la porte se referme",
+	"tu es parti",
+	"il est revenu",
+	"je suis là",
+	"pars ne reviens pas trop tard",
+	"il est l'heure",
+	"viens avec nous",
+	"partons loin"
 ];
 
 var dual1 = [
