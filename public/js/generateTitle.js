@@ -7,8 +7,8 @@ var generateTitle = function () {
 
 
 
-var bgs = 2;
-var fonts = 2;
+var bgs = 5;
+var fonts = 4;
 
 var lastBg = 0;
 var lastFont = 0;
@@ -20,9 +20,13 @@ var chooseBG = function () {
 };
 var chooseFont = function () {
 	var font = Math.floor (Math.random() * fonts);
-	$('#txt').removeClass('font' + lastFont);
-	$('#txt').addClass('font' + font);
-	lastFont = font;
+	$('#txt').addClass('invisible');
+	setTimeout (function () {
+		$('#txt').removeClass('font' + lastFont);
+		$('#txt').addClass('font' + font);
+		lastFont = font;
+		$('#txt').removeClass('invisible');
+	}, 250);
 };
 
 
@@ -41,7 +45,9 @@ var addVirgule = function () {
 
 function setPhrase () {
 	var phrase = generateTitle();
-	$('#txt').text(phrase);
+	setTimeout (function () {
+		$('#txt').text(phrase);
+	}, 250);
 	chooseBG();
 	chooseFont();
 }
