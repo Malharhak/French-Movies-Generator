@@ -213,6 +213,8 @@ var fins = [
 	"mais les oiseaux dorment encore"
 ];
 var oneshots = [
+	"va-t-en",
+	"pars",
 	"le soir",
 	"les feuilles tombent",
 	"tu n'es plus là",
