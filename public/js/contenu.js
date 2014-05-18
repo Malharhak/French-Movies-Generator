@@ -171,7 +171,6 @@ var pre_compl_etat =  [
 	["jeune", "jeunes"],
 	["beau", "belle", "beaux", "belles"],
 	["grand", "grande", "grands", "grandes"],
-	["ouvert", "ouverte", "ouverts", "ouvertes"],
 	["la"],
 	["ici"]
 ];
