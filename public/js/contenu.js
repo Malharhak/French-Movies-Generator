@@ -196,7 +196,7 @@ var pre_compl_etat =  [
 	["ici"],
 	["là-bas"],
 	["petit", "petite", "petits", "petites"],
-	["loin", "loins"],
+	["loin"],
 	["mort", "morte", "morts", "mortes"]
 ];
 var compl_etat = [];
