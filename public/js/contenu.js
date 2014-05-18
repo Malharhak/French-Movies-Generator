@@ -34,10 +34,9 @@ var sujets = {
 			"le flot",
 			"l'amour",
 			"dimanche",
-			"le pain",
 			"le pré",
-			"un chien",
-			"un coeur"
+			"le chien",
+			"son coeur"
 		],
 		fem : [
 			"la pluie",
@@ -46,9 +45,9 @@ var sujets = {
 			"la famille",
 			"la cabane",
 			"la piscine",
-			"une corniche",
-			"une table",
-			"une porte",
+			"la corniche",
+			"la table",
+			"la porte",
 			"la fenêtre"
 		]
 	},
@@ -325,7 +324,8 @@ var sujets_compl = [
 	"un garçon",
 	"une fille",
 	"les garçons",
-	"les filles"
+	"les filles",
+	"une table"
 ];
 
 
