@@ -8,7 +8,7 @@ var generateTitle = function () {
 
 
 var bgs = 5;
-var fonts = 4;
+var fonts = 3;
 
 var timer = 500;
 

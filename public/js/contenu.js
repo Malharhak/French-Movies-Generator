@@ -37,7 +37,8 @@ var sujets = {
 			"le pain",
 			"le pré",
 			"un chien",
-			"un coeur"
+			"un coeur",
+			"pedobear"
 		],
 		fem : [
 			"la pluie",
@@ -47,7 +48,6 @@ var sujets = {
 			"la petite",
 			"la cabane",
 			"la piscine",
-			"la marre",
 			"une corniche",
 			"une table",
 			"une porte",
@@ -61,7 +61,9 @@ var sujets = {
 			"ces gens",
 			"nos chemins",
 			"les dessins",
-			"les oiseaux"
+			"les oiseaux",
+			"les poissons",
+			"des gauffres"
 		],
 		fem : [
 			"les couleurs",
@@ -134,7 +136,8 @@ var verbes_simple = {
 	],
 	plur : [
 		"reviennent",
-		"partent"
+		"partent",
+		"s'aiment"
 	]
 };
 var verbe_etat = {
@@ -159,7 +162,9 @@ var verbe_complement = {
 	trois : [
 		"quitte",
 		"aime",
-		"hait",
+		"vend",
+		"prend",
+		"regarde",
 		"suit",
 		"fait",
 		"vit"
@@ -173,7 +178,14 @@ var verbe_complement = {
 		"vis"
 	],
 	plur : [
-		"quittent"
+		"quittent",
+		"partent",
+		"suivent",
+		"aiment",
+		"font",
+		"vivent",
+		"prennent",
+		"regardent"
 	]
 };
 var pre_compl_etat =  [
@@ -210,7 +222,7 @@ var oneshots = [
 	"j'ai fait des crêpes",
 	"l'échelle est tombée",
 	"l'oiseau s'envole",
-	"la fleur fanne",
+	"la fleur fâne",
 	"il te regarde",
 	"le jour se lève",
 	"la porte se referme",
@@ -220,7 +232,30 @@ var oneshots = [
 	"pars ne reviens pas trop tard",
 	"il est l'heure",
 	"viens avec nous",
-	"partons loin"
+	"partons loin",
+	"reviens",
+	"je t'attends",
+	"c'est l'heure"
+];
+var oneshot_adverbe = [
+	"trop tard",
+	"tant pis",
+	"c'était bien",
+	"il reviendra",
+	"peut-être",
+	"je ne sais pas",
+	"ça se pourrait",
+	"c'est fini",
+	"ce n'est pas grave",
+	"je t'en veux",
+	"je ne t'en veux pas",
+	"ils s'aiment",
+	"elle l'aime",
+	"je t'aime",
+	"j'ai faim",
+	"il est parti",
+	"partout",
+	"après tout"
 ];
 
 var dual1 = [
@@ -247,8 +282,6 @@ var liaisons = [
 	"jamais"
 ];
 var sujets_compl = [
-	"toi",
-	"lui",
 	"l'oiseau",
 	"l'ocean",
 	"le beau temps",
@@ -271,8 +304,6 @@ var sujets_compl = [
 	"le monde",
 	"la mer",
 	"le soleil",
-	"l'oeil",
-	"le doigt",
 	"le travail",
 	"un souvenir",
 	"une pensée",

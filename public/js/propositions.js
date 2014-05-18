@@ -18,7 +18,7 @@ propositionFuncs.simple = function () {
 	phrase += " ";
 	phrase += verbe;
 	return phrase;
-}; 
+};
 propositionFuncs.lieu = function () {
 	var suj = new Sujet();
 	var sujet = suj.sujet;
@@ -42,6 +42,10 @@ propositionFuncs.etat = function () {
 propositionFuncs.oneshot = function () {
 	return rElem(oneshots);
 };
+propositionFuncs.oneshotAdv = function () {
+	return rElem(oneshot_adverbe);
+};
+
 propositionFuncs.adverb = function () {
 	var phrase = "";
 	phrase += rElem(adverbes);

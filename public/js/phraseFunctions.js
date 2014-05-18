@@ -2,7 +2,8 @@ var phraseTypes = [
 	"classic",
 	"withLiaison",
 	"dual",
-	"veryLong"
+	"veryLong",
+	"oneshotAdvEnd"
 ];
 
 var phraseFunctions = {};
@@ -39,6 +40,13 @@ phraseFunctions.veryLong = function () {
 			phrase += ", ";
 		}
 	}
+	return phrase;
+};
+phraseFunctions.oneshotAdvEnd = function () {
+	var p1 = generateProp();
+	var phrase = p1 + ", " + propositionFuncs.oneshotAdv();
+	phrase += ", ";
+	phrase += generateProp();
 	return phrase;
 };
 
