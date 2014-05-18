@@ -114,9 +114,7 @@ var verbes_simple = {
 		"parle",
 		"revient",
 
-		"s'ouvre",
 		"m'aime",
-		"coule",
 		"meurt"
 	],
 	deux : [
