@@ -233,7 +233,7 @@ var sujets_compl = [
 	"ta vie",
 	"nos vies",
 	"les couleurs",
-	"les feuilles de l'automne",
+	"les feuilles",
 	"les enfants",
 	"leurs dessins",
 	"une maison",
@@ -242,7 +242,26 @@ var sujets_compl = [
 	"les champs",
 	"le temps",
 	"le ciel",
-	"les nuages"
+	"les nuages",
+	"le monde",
+	"la mer",
+	"le soleil",
+	"l'oeil",
+	"le doigt",
+	"le travail",
+	"un souvenir",
+	"une pensée",
+	"une question",
+	"une idée",
+	"le doute",
+	"notre joie",
+	"la douleur",
+	"le prix",
+	"la fortune",
+	"un garçon",
+	"une fille",
+	"les garçons",
+	"les filles"
 ];
 
 
