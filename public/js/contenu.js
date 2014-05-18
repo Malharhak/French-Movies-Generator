@@ -47,18 +47,17 @@ var sujets = {
 	plur : {
 		masc : [
 			"tes souvenirs",
-			"les enfants"
+			"les enfants",
+			"ces gens",
+			"nos chemins",
+			"les dessins",
+			"les oiseaux"
 		],
 		fem : [
 			"les couleurs",
 			"les feuilles de l'automne",
-			"les oiseaux",
-			"les dessins",
 			"les pommes",
-			"tes histoires",
-			"nos chemins",
-			"ces gens"
-
+			"tes histoires"
 		]
 	}
 };
