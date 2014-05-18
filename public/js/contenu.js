@@ -255,7 +255,14 @@ var oneshot_adverbe = [
 	"j'ai faim",
 	"il est parti",
 	"partout",
-	"après tout"
+	"après tout",
+	"elle nous les montre",
+	"à bientôt",
+	"et vice et versa",
+	"et je dis",
+	"si seulement il mentait",
+	"le bateau prend le large",
+	"à condition d'analyser que l'absolu ne doit pas être annihilé"
 ];
 
 var dual1 = [
