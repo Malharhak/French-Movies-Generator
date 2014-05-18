@@ -5,6 +5,7 @@ body {
   height: 100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: white;
+  background-color: black;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
 #socialButtons {
