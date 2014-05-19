@@ -253,7 +253,6 @@ var oneshot_adverbe = [
 	"il est parti",
 	"partout",
 	"après tout",
-	"elle nous les montre",
 	"à bientôt",
 	"et vice et versa",
 	"et je dis",
